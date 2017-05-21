@@ -1,0 +1,16 @@
+$('.update').on('click', function () {
+  $('.year').text('2017');
+});
+
+
+var li = "<li>A dynamically generated list item!</li>"
+$('ul').append(li);
+
+/*remove*/
+
+$( "li").remove();
+
+/*add*/
+$( "ul" ).append( "<li>Jeb Castelo</li>" );
+
+$("div").removeClass( "small" ).addClass("normal");
